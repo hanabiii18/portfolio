@@ -15,7 +15,7 @@ function NavBar() {
   return (
     <nav className="nav">
       <div className="nav__bar">
-        <a href="#"><span className="logo nav__logo">C</span> Crisha</a>
+        <a href="#home"><span className="logo nav__logo">C</span> Crisha</a>
         <div className="nav__menu__btn" id="menu-btn" onClick={toggleMenu}>
           <i className={menuOpen ? "ri-close-line" : "ri-menu-3-line"}></i>
         </div>
