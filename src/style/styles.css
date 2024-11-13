@@ -418,6 +418,7 @@ nav {
   
   .service__card img{
     height: 100px;
+    width: auto;
   }
   
   .service__card h4 {
