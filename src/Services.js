@@ -23,48 +23,42 @@ function Services() {
           <span><img src="/icons/java.png" alt="Website Design Icon" /></span>
           <h4>Java</h4>
           <p>
-            We craft user-friendly interfaces that engage visitors and help you
-            achieve your online goals with minimum efforts.
+            INTERMEDIATE
           </p>
         </div>
         <div className="service__card">
           <span><img src="/icons/html.png" alt="E-commerce Solutions Icon" /></span>
           <h4>HTML</h4>
           <p>
-            We build secure, scalable, and user-centric online stores that
-            enhance the shopping experience and drive conversions.
+            INTERMEDIATE
           </p>
         </div>
         <div className="service__card">
           <span><img src="/icons/php.png" alt="Mobile Development Icon" /></span>
           <h4>PHP</h4>
           <p>
-            From iOS to Android, we create apps that deliver seamless
-            performance and keep users coming back for more.
+            INTERMEDIATE
           </p>
         </div>
         <div className="service__card">
           <span><img src="/icons/python.png" alt="Content Marketing Icon" /></span>
           <h4>Python</h4>
           <p>
-            Our services include creating blog posts, videos, and social media
-            content that drives traffic and engagement.
+            BEGINNER
           </p>
         </div>
         <div className="service__card">
           <span><img src="/icons/bootstrap.png" alt="SEO Icon" /></span>
           <h4>Bootstrap</h4>
           <p>
-            Our SEO strategies are tailored to your specific goals, helping you
-            reach your target audience and grow your online presence.
+            INTERMEDIATE
           </p>
         </div>
         <div className="service__card">
           <span><img src="/icons/mysql.png" alt="Digital Marketing Icon" /></span>
           <h4>MySQL</h4>
           <p>
-            From pay-per-click (PPC) advertising to social media marketing, we
-            ensure your brand stands out in the crowded digital landscape.
+            INTERMEDIATE
           </p>
         </div>
       </div>

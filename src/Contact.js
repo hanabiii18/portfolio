@@ -6,7 +6,33 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setStatus('Sending...');
+    const form = e.target;
+    const data = new FormData(form);
+    
+    fetch(form.action, {
+      method: form.method,
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    .then(response => {
+      if (response.ok) {
+        setStatus('Message sent successfully!');
+        form.reset();
+      } else {
+        response.json().then(data => {
+          if (Object.hasOwn(data, 'errors')) {
+            setStatus(data['errors'].map(error => error['message']).join(', '));
+          } else {
+            setStatus('Oops! There was a problem submitting your form.');
+          }
+        });
+      }
+    })
+    .catch(() => {
+      setStatus('Oops! There was a problem submitting your form.');
+    });
   };
 
   return (

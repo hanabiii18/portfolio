@@ -24,15 +24,10 @@ function About() {
         <img src="/about.jpg" alt="about" className="about__img" />
       </div>
       <div className="about__content">
-        <h2 className="section__header">Bit About Me</h2>
+        <h2 className="section__header">About Me</h2>
         <p className="section__description">
-          A passionate web developer with a creative flair and a knack for
-          turning visions into reality. My journey in web development began with
-          a fascination for coding and design, and it has evolved into a career
-          where I blend aesthetics with functionality. With a focus on user
-          experience and a commitment to staying updated with the latest
-          industry trends, I'm dedicated to creating web solutions that not only
-          meet but exceed expectations.
+          A developer based in Bacoor, Cavite, with a growing skill set in PHP, Java, HTML, CSS, and JavaScript. Passionate about building functional and visually appealing websites and web applications, I have hands-on experience in both front-end and back-end development.
+          I’m excited to apply what I’ve learned to real-world projects and always seek new challenges to refine my skills. Outside of coding, I enjoy gaming, baking, dancing, watching anime, and reading novels, which inspire my creative approach to development.
         </p>
         <div className="about__btn">
           <a href="/Resume.pdf" download>
